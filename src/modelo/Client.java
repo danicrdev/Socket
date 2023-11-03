@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Modelo;
+package modelo;
 
 /**
  * 
