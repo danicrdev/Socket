@@ -43,7 +43,7 @@ class EnvioConectado extends WindowAdapter{
      */
     public void windowOpened(WindowEvent e){
         try{
-            Socket socket=new Socket("192.168.1.188", 9999);
+            Socket socket=new Socket("192.168.5.104", 9999);
             Datos datos = new Datos();
             datos.setMensaje("Conectado");
             ObjectOutputStream paquete = new ObjectOutputStream(socket.getOutputStream());
